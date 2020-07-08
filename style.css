@@ -1,0 +1,130 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+  }
+h1{
+  font-weight:bold;
+}
+button{
+  background-color: #21B573;
+  border:none;
+  padding:9px 25px;
+  border-radius: 33px;
+  color:white;
+}
+
+.upper-body{
+    background-color:#F0FFF0 ;
+  }
+.orange-text{
+      color:#FD511A;
+  }
+.lightgreen-text{
+    color: #21B573;
+  }
+
+.container-top-space{
+      margin-top:100px;;
+  }
+.card-title{
+    font-weight: bold;
+}
+.icon-image{
+    width: 120px;
+    height: 120px;
+    padding: 20px 30px;
+}
+.curriculum-card .card{
+    border-radius: 10px;
+    
+    background-color: #F0FFF0 ;
+    border: none;   
+}
+.curriculum-card .card:hover{
+    box-shadow: 3px 3px 5px gray;
+    transform: scale(1.05);
+    background-color: white;
+}
+
+.course-card .small-icon-img{
+  width:20px;
+  height:20px;
+}
+.course-card .card{
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px gray;
+}
+.course-card .card-img-top{
+   padding:5px;
+   border-radius:10px;
+  
+}
+.testimonial img{
+  width:120px;
+  height:120px;
+}
+.lower-body{
+  background-color:#282531;
+}
+.lower-body h1{
+  color:white;
+}
+
+.lower-body .link{
+  display: inline-block;
+  width: 6%;
+  height: 6%;
+  background-color: #f1f1f1;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: black;
+  overflow: hidden;
+  position: relative;
+}
+.lower-body .link i{
+  line-height: 60px;
+  font-size: 26px;
+  transition:  .2s linear;
+}
+.lower-body .link:hover{
+  transform: scale(1.15);
+  color:rgb(119, 115, 115);
+}
+.lower-body .references{
+color:white;
+}
+.lower-body ul{
+  list-style-type: none;
+}
+.lower-body li:first-child{
+  font-weight:bold;
+}
+footer{
+  background-color:#282531;
+  color:white;
+  height:35px;
+}
+
+#signin{
+  background-color: #21B573;
+  border:none;
+  padding:9px 25px;
+  border-radius: 33px;
+  color:white;
+}
+.signin{
+  box-shadow: 3px 3px 5px gray;
+  width:400px;
+  border-radius: 10px;
+  margin-top:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #F0FFF0;
+  padding: 30px 5px;
+}
+#signup{
+  color:#21B573;
+}
+

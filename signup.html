@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <!--title bar image-->
+    <link rel="icon" type="image/ico" href="images/ICON/people.png" />
+    <!--bootstrap css link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--style.css link-->
+    <link rel="stylesheet" href="style.css">
+    <!--google fonts link-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <!--fontawesome link-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+<body> 
+    <!--Navbar starts-->
+    <div class="upper-body">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html"><img src="images/ICON/Logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#">Book<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Courses</a>
+                <a class="nav-item nav-link" href="#">Others</a>
+                <a class="nav-item nav-link" href="#">Blog</a>
+                <a href="signin.html"> <button class="button">Signin</button></a>
+              </div>
+            </div>
+          </nav>
+          
+    </div>
+
+   </div>
+  <!--Navbar ends-->
+  <!--form starts-->
+       
+            <div class="container signin">
+                <form action="#"  >
+                    <h1 class="text-center lightgreen-text">Sign up</h1>
+                    <div class="form-group">
+                        <label for="text">Full Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter full name" name="name">
+                      </div>
+                    <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" class="form-control" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter email" name="email" required >
+                    </div>
+                    <div class="form-group">
+                      <label for="pwd">Password:</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cpwd">confirm Password:</label>
+                        <input type="c_password" class="form-control" id="cpwd" placeholder="Enter password" name="cpwd" required>
+                      </div>
+                    
+                    <div class="text-center mt-2">
+                        <button type="submit" >Complete Registration</button>
+                    </div>
+              
+                  </form>
+              </div>
+     <!--form ends-->
+ 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
